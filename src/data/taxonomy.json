@@ -1,0 +1,127 @@
+{
+  "$comment": "Extensible discipline taxonomy. This is used ONLY to LABEL concepts and suggest relationships. It is never a gate: concepts that match nothing here are still extracted, displayed and searched. Add disciplines freely — no code change required.",
+  "version": 1,
+  "disciplines": [
+    {
+      "id": "international-relations",
+      "label": "International Relations",
+      "keywords": ["diplomacy", "geopolitics", "sovereignty", "multipolarity", "multipolar", "unipolar", "bipolar", "balance of power", "security dilemma", "strategic autonomy", "middle power", "middle powers", "hegemony", "containment", "deterrence", "alliance", "foreign policy", "international order", "great power", "great powers", "interdependence", "realism", "liberalism", "constructivism", "international institutions", "multilateralism", "unilateralism", "soft power", "hard power", "national security", "geopolitical competition", "international political economy", "sphere of influence", "proxy war", "arms race", "nonproliferation", "territorial dispute"]
+    },
+    {
+      "id": "political-science",
+      "label": "Political Science & Public Policy",
+      "keywords": ["democracy", "authoritarianism", "populism", "electoral system", "governance", "public policy", "legitimacy", "state capacity", "civil society", "lobbying", "policy instrument", "regulation", "federalism", "constitution", "voting behaviour", "voting behavior", "political polarization", "welfare state", "bureaucracy", "accountability"]
+    },
+    {
+      "id": "economics",
+      "label": "Economics & Trade",
+      "keywords": ["inflation", "gdp", "monetary policy", "fiscal policy", "supply chain", "supply chains", "comparative advantage", "tariff", "trade war", "labour market", "labor market", "wages", "productivity", "inequality", "recession", "interest rate", "central bank", "market failure", "externality", "globalisation", "globalization", "protectionism", "industrial policy", "economic growth", "unemployment", "cost of living", "debt", "austerity"]
+    },
+    {
+      "id": "finance-business",
+      "label": "Finance & Business",
+      "keywords": ["capital markets", "equity", "bond", "derivative", "venture capital", "private equity", "corporate governance", "shareholder", "valuation", "risk management", "fintech", "banking", "insurance", "entrepreneurship", "startup", "merger", "acquisition", "esg", "supply chain management", "business model"]
+    },
+    {
+      "id": "history",
+      "label": "History & Civilisation",
+      "keywords": ["empire", "colonialism", "decolonisation", "decolonization", "cold war", "industrial revolution", "renaissance", "enlightenment", "antiquity", "medieval", "revolution", "treaty of westphalia", "nationalism", "migration", "civilisation", "civilization", "historiography", "archive", "dynasty", "imperialism"]
+    },
+    {
+      "id": "sociology",
+      "label": "Sociology & Anthropology",
+      "keywords": ["social stratification", "class", "social mobility", "demographics", "urbanisation", "urbanization", "migration", "ethnicity", "gender", "kinship", "cultural norms", "social capital", "inequality", "community", "identity", "assimilation", "diaspora", "social movement", "ethnography"]
+    },
+    {
+      "id": "psychology",
+      "label": "Psychology & Education",
+      "keywords": ["cognition", "cognitive bias", "behaviour", "behavior", "motivation", "memory", "attention", "personality", "trauma", "learning", "pedagogy", "curriculum", "child development", "mental health", "resilience", "decision making", "social psychology", "neuroplasticity", "consciousness"]
+    },
+    {
+      "id": "biology",
+      "label": "Biology & Life Sciences",
+      "keywords": ["evolution", "natural selection", "genetics", "genome", "cell", "dna", "rna", "protein", "ecosystem", "biodiversity", "microbiome", "neuroscience", "immunology", "species", "metabolism", "enzyme", "mutation", "ecology", "photosynthesis", "organism"]
+    },
+    {
+      "id": "chemistry",
+      "label": "Chemistry",
+      "keywords": ["molecule", "compound", "reaction", "catalyst", "polymer", "acid", "base", "solvent", "organic chemistry", "electrochemistry", "thermodynamics", "bond", "synthesis", "spectroscopy"]
+    },
+    {
+      "id": "physics",
+      "label": "Physics & Astronomy",
+      "keywords": ["quantum", "relativity", "thermodynamics", "entropy", "gravity", "particle", "photon", "electromagnetism", "dark matter", "cosmology", "black hole", "momentum", "energy", "wave", "nuclear", "semiconductor"]
+    },
+    {
+      "id": "mathematics",
+      "label": "Mathematics & Statistics",
+      "keywords": ["theorem", "proof", "topology", "algebra", "calculus", "probability", "statistics", "regression", "distribution", "geometry", "number theory", "optimisation", "optimization", "algorithm", "set theory", "linear algebra", "bayesian", "bayesian inference", "hypothesis testing"]
+    },
+    {
+      "id": "computer-science",
+      "label": "Computer Science & AI",
+      "keywords": ["machine learning", "neural network", "algorithm", "artificial intelligence", "automation", "software", "database", "cryptography", "distributed system", "compiler", "robotics", "natural language processing", "reinforcement learning", "large language model", "deep learning", "quantum computing", "cybersecurity", "data structure"]
+    },
+    {
+      "id": "engineering",
+      "label": "Engineering & Technology",
+      "keywords": ["infrastructure", "manufacturing", "semiconductor", "energy grid", "materials", "aerospace", "civil engineering", "control system", "turbine", "battery", "electric vehicle", "additive manufacturing", "systems engineering", "reliability"]
+    },
+    {
+      "id": "environment",
+      "label": "Environment & Climate",
+      "keywords": ["climate change", "global warming", "carbon emissions", "greenhouse gas", "renewable energy", "decarbonisation", "decarbonization", "sustainability", "deforestation", "sea level", "adaptation", "mitigation", "net zero", "carbon pricing", "climate policy", "tipping point", "emissions", "fossil fuel", "solar", "wind power"]
+    },
+    {
+      "id": "medicine",
+      "label": "Medicine & Public Health",
+      "keywords": ["epidemiology", "vaccine", "clinical trial", "pandemic", "diagnosis", "treatment", "public health", "mortality", "morbidity", "antibiotic resistance", "healthcare system", "prevalence", "screening", "mental health", "nutrition"]
+    },
+    {
+      "id": "philosophy",
+      "label": "Philosophy & Ethics",
+      "keywords": ["epistemology", "ontology", "ethics", "morality", "consciousness", "free will", "determinism", "utilitarianism", "deontology", "virtue ethics", "justice", "truth", "knowledge", "metaphysics", "phenomenology", "existentialism", "causation", "mind body problem"]
+    },
+    {
+      "id": "literature",
+      "label": "Literature, Linguistics & Culture",
+      "keywords": ["narrative", "metaphor", "semantics", "syntax", "phonology", "genre", "poetry", "novel", "rhetoric", "discourse", "translation", "linguistic", "literary criticism", "semiotics", "cultural studies", "media studies"]
+    },
+    {
+      "id": "law",
+      "label": "Law & International Law",
+      "keywords": ["jurisdiction", "statute", "common law", "civil law", "human rights", "international law", "sovereignty", "liability", "contract", "tort", "intellectual property", "copyright", "treaty", "compliance", "judicial review", "rule of law", "legal precedent"]
+    },
+    {
+      "id": "geography",
+      "label": "Geography & Urban Studies",
+      "keywords": ["urbanisation", "urbanization", "population density", "land use", "mobility", "transport", "housing", "regional development", "cartography", "territory", "migration", "demographics", "spatial", "city planning"]
+    },
+    {
+      "id": "arts-media",
+      "label": "Art, Design & Media",
+      "keywords": ["aesthetics", "composition", "visual culture", "cinematography", "design system", "typography", "curation", "exhibition", "photography", "animation", "game design", "journalism", "broadcasting", "publishing"]
+    },
+    {
+      "id": "data-statistics",
+      "label": "Data & Official Statistics",
+      "keywords": ["dataset", "indicator", "index", "survey", "census", "panel data", "time series", "sample", "methodology", "measurement", "estimate", "confidence interval", "data quality", "open data"]
+    }
+  ],
+  "relations": [
+    { "from": "artificial intelligence", "to": "automation", "type": "leads-to" },
+    { "from": "automation", "to": "employment", "type": "affects" },
+    { "from": "productivity", "to": "wages", "type": "affects" },
+    { "from": "employment", "to": "inequality", "type": "affects" },
+    { "from": "multipolarity", "to": "balance of power", "type": "implies" },
+    { "from": "balance of power", "to": "security dilemma", "type": "implies" },
+    { "from": "economic interdependence", "to": "international institutions", "type": "shapes" },
+    { "from": "strategic autonomy", "to": "middle powers", "type": "enables" },
+    { "from": "climate change", "to": "carbon emissions", "type": "caused-by" },
+    { "from": "carbon emissions", "to": "renewable energy", "type": "mitigated-by" },
+    { "from": "evolution", "to": "natural selection", "type": "mechanism" },
+    { "from": "consciousness", "to": "cognition", "type": "related" },
+    { "from": "inflation", "to": "monetary policy", "type": "responded-to-by" },
+    { "from": "comparative advantage", "to": "globalisation", "type": "foundation-of" }
+  ]
+}
